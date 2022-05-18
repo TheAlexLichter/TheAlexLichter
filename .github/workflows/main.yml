@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: manniL/metrics@latest
+      - uses: manniL/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
