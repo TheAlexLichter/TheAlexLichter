@@ -17,10 +17,7 @@ jobs:
           # Options
           user: manniL
           template: classic
-          base: header, activity
+          base: header, activity, repositories
           config_timezone: Europe/Berlin
           plugin_languages: yes
-          plugin_repositories: 100
-          plugin_repositories_affiliations: owner
-          plugin_repositories_batch: 100
           optimize: css, xml
