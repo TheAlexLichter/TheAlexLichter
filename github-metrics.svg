@@ -23,7 +23,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"/>
                             </svg>
-                            Followed by 548 users
+                            Followed by 554 users
                         </div>
                         <div class="field hire">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -191,7 +191,7 @@
                     <rect mask="url(#languages-bar)" x="245.1917303983045" y="0" width="102.18405582752243" height="8" fill="#f1e05a"/>
                     <rect mask="url(#languages-bar)" x="347.3757862258269" y="0" width="60.7352690758493" height="8" fill="#4F5D95"/>
                     <rect mask="url(#languages-bar)" x="408.11105530167623" y="0" width="24.989108235437755" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="433.100163537114" y="0" width="19.410629162726387" height="8" fill="#2b7489"/>
+                    <rect mask="url(#languages-bar)" x="433.100163537114" y="0" width="19.410629162726387" height="8" fill="#3178c6"/>
                     <rect mask="url(#languages-bar)" x="452.51079269984035" y="0" width="6.171748240664087" height="8" fill="#f7523f"/>
                     <rect mask="url(#languages-bar)" x="458.6825409405045" y="0" width="1.3174590594955946" height="8" fill="#6e4a7e"/>
                 </svg>
@@ -228,7 +228,7 @@
                     </div>
                     <div class="field center no-wrap language">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                            <path fill="#2b7489" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                            <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                         </svg>
                         TypeScript
                     </div>
