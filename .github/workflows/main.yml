@@ -24,4 +24,5 @@ jobs:
           optimize: css, xml
           plugin_sponsors: yes
           plugin_sponsors_past: yes
+          plugin_sponsors_sections: goal, list
           
