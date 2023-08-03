@@ -4,6 +4,14 @@ I'm Alex, also known as `manniL` or `TheAlexLichter` (when my main nick was alre
 
 Soon, there will be more info about me here 😋
 
+<br><br>
+
+<div align="center">
+  <img align="center" width="250px" alt="Minimalistic logo consisting of a lightbulb and a red 'AL' in the middle as filament" src="https://raw.githubusercontent.com/manniL/static/main/logo-lightbulb-white-red.svg">
+</div>
+
+<br><br><br><br>
+
 <h2 align="center">Where to follow me</h2>
 <br>
 <p align="center">
@@ -16,7 +24,6 @@ Soon, there will be more info about me here 😋
   <a href="https://www.linkedin.com/in/alexanderlichter/" target="_blank">🗃️ LinkedIn</a>
   &bull;
   <a href="https://www.twitch.tv/TheAlexLichter/" target="_blank">📺 Twitch</a>
-  
 </p><br>
 
 <h2 align="center">Metrics</h2><br>
