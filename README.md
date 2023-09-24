@@ -6,7 +6,7 @@ Soon, there will be more info about me here 😋
 
 <br>
 <div align="center">
-  <img align="center" width="150px" alt="Minimalistic logo consisting of a lightbulb and a red 'AL' in the middle as filament" src="https://raw.githubusercontent.com/manniL/static/main/logo-lightbulb-white-red.svg">
+  <a href="https://www.lichter.io/?ref=gh-logo" target="blank"><img align="center" width="150px" alt="Minimalistic logo consisting of a lightbulb and a red 'AL' in the middle as filament" src="https://raw.githubusercontent.com/manniL/static/main/logo-lightbulb-white-red.svg"></a>
 </div>
 
 <br>
@@ -14,13 +14,13 @@ Soon, there will be more info about me here 😋
 <h2 align="center">Where to follow me</h2>
 <br>
 <p align="center">
-  <a href="https://lichter.io" target="_blank">🕸️ Website</a>
-  &bull;
-  <a href="https://blog.lichter.io" target="_blank">📝 Blog</a>
+  <a href="https://www.lichter.io/" target="_blank">🕸️ Website</a>
   &bull;
   <a href="https://twitter.com/TheAlexLichter" target="_blank">🐦 Twitter</a>
   <br>
   <a href="https://www.linkedin.com/in/alexanderlichter/" target="_blank">🗃️ LinkedIn</a>
+  &bull;
+  <a href="https://www.youtube.com/channel/@TheAlexLichter" target="_blank">🎬️ YouTube</a>
   &bull;
   <a href="https://www.twitch.tv/TheAlexLichter/" target="_blank">📺 Twitch</a>
 </p><br>
