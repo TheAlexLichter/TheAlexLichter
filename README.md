@@ -25,7 +25,7 @@ Soon, there will be more info about me here 😋
   <br>
   <a href="https://www.linkedin.com/in/alexanderlichter/" target="_blank">🗃️ LinkedIn</a>
   &bull;
-  <a href="https://www.youtube.com/channel/@TheAlexLichter" target="_blank">🎬️ YouTube</a>
+  <a href="https://www.youtube.com/@TheAlexLichter" target="_blank">🎬️ YouTube</a>
   &bull;
   <a href="https://www.twitch.tv/TheAlexLichter/" target="_blank">📺 Twitch</a>
 </p><br>
