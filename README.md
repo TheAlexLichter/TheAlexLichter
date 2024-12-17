@@ -8,8 +8,8 @@ Soon, there will be more info about me here 😋
 <div align="center">
   <a href="https://www.lichter.io/?ref=gh-logo" target="blank">
     <picture>
-      <source srcset="https://raw.githubusercontent.com/manniL/static/main/logo-lightbulb-white-red.svg" media="(prefers-color-scheme: dark)">
-      <img align="center" width="150px" alt="Minimalistic logo consisting of a lightbulb and a red 'AL' in the middle as filament" src="https://raw.githubusercontent.com/manniL/static/main/logo-lightbulb-black-red.svg">
+      <source srcset="https://raw.githubusercontent.com/TheAlexLichter/static/main/logo-lightbulb-white-red.svg" media="(prefers-color-scheme: dark)">
+      <img align="center" width="150px" alt="Minimalistic logo consisting of a lightbulb and a red 'AL' in the middle as filament" src="https://raw.githubusercontent.com/TheAlexLichter/static/main/logo-lightbulb-black-red.svg">
     </picture>
   </a>
 </div>
