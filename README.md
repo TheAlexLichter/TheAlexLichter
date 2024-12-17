@@ -1,6 +1,6 @@
 ### Hey people 👋
 
-I'm Alex, also known as `manniL` or `TheAlexLichter` (when my main nick was already taken 😂).
+I'm Alex, also known as `TheAlexLichter` on socials.
 
 Soon, there will be more info about me here 😋
 
