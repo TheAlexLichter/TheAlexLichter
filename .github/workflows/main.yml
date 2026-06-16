@@ -14,7 +14,7 @@ jobs:
     steps:
       # The fork's main branch is stale (May 2022). Pin the reviewed master
       # revision so action code cannot change underneath this workflow.
-      - uses: TheAlexLichter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
+      - uses: TheAlexLichter/metrics@ea0f90b58b56984f82809e1ec3c847a1f3c2dfc1
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           output_action: none
