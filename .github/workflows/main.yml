@@ -9,10 +9,15 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: TheAlexLichter/metrics@main
+      # The fork's main branch is stale (May 2022). Pin the reviewed master
+      # revision so action code cannot change underneath this workflow.
+      - uses: TheAlexLichter/metrics@366f8b9dfe3a59656c67d5dcad9950f59c9bc96d
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
 
           # Options
           user: TheAlexLichter
@@ -25,4 +30,47 @@ jobs:
           plugin_sponsors: yes
           plugin_sponsors_past: yes
           plugin_sponsors_sections: goal, list
-          
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: github-metrics
+          path: /metrics_renders/github-metrics.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    needs: github-metrics
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@9f698171ed81b15d1823a05fc7211befd50c8ae0 # v6.0.3
+        with:
+          persist-credentials: true
+
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: github-metrics
+          path: .metrics-render
+
+      - name: Validate generated SVG
+        run: |
+          set -euo pipefail
+          test -f .metrics-render/github-metrics.svg
+          test ! -L .metrics-render/github-metrics.svg
+          test "$(wc -c < .metrics-render/github-metrics.svg)" -le 2000000
+          grep -q '^<svg ' .metrics-render/github-metrics.svg
+          grep -q '</svg>$' .metrics-render/github-metrics.svg
+
+      - name: Publish generated SVG
+        run: |
+          set -euo pipefail
+          cp .metrics-render/github-metrics.svg github-metrics.svg
+          if git diff --quiet -- github-metrics.svg; then
+            exit 0
+          fi
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add github-metrics.svg
+          git commit -m 'chore: update github-metrics.svg [skip ci]'
+          git push
